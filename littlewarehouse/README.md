@@ -1,0 +1,72 @@
+# littlewarehouse
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### PowerShell無法使用cli
+
+```
+執行：get-ExecutionPolicy，如果顯示Restricted，表示狀態是禁止的
+執行：set-ExecutionPolicy RemoteSigned
+https://blog.csdn.net/lihefei_coder/article/details/100522281
+```
+
+### 簡單指令
+
+vue ui 開啟UI介面的新增專案工具 (沒什麼用)
+
+檔案下載
+
+pdf  URL:  shorturl.at/uyBPQ
+Long URL: https://whimsical.com/NCe1wwbTMAnLHGJXpwBfZs
+
+- install VS code
+- install npm
+
+> npm -v
+> npm install -g @vue/cli
+
+### powershell 無法執行 
+
+> set-ExecutionPolicy RemoteSigned
+> https://blog.csdn.net/lihefei_coder/article/details/100522281
+
+> vue create product-portal
+> cd product-portal
+> npm run serve
+
+
+### 透過圖形使用者介面建立專案
+> vue ui
+
+
+### VS Code plugins
+- Prettier - Code formatter
+- Vetur
+- Vue VSCode Snippets
+- Trailing Spaces
+
+- vscode-icons
+- Todo Tree
+- Bracket Pair Colorizer
+
