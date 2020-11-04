@@ -65,8 +65,17 @@ Long URL: https://whimsical.com/NCe1wwbTMAnLHGJXpwBfZs
 - Vetur
 - Vue VSCode Snippets
 - Trailing Spaces
-
 - vscode-icons
 - Todo Tree
 - Bracket Pair Colorizer
+- Prettier - Code formatter
+- Settings Sync(推 保留套件設定)
+- Auto Rename Tag
+- Auto Complete TagAuto Complete Tag
+- GitLens
 
+使用elemet from 
+
+- npm i element-ui -S
+- 可是我以前學的好像是
+  vue add element (import on demand zh-TW) 好像就是都可以
