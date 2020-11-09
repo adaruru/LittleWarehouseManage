@@ -74,8 +74,15 @@ Long URL: https://whimsical.com/NCe1wwbTMAnLHGJXpwBfZs
 - Auto Complete TagAuto Complete Tag
 - GitLens
 
-使用elemet from 
+### 使用elemet from 
 
 - npm i element-ui -S
 - 可是我以前學的好像是
   vue add element (import on demand zh-TW) 好像就是都可以
+
+### App Vue
+
+![image-20201104204946002](.attachments/image-20201104204946002.png)
+
+------
+
