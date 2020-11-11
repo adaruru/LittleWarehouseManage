@@ -7,19 +7,6 @@
 
     </div>
     <router-view/>
-     <div>{{title}}</div>
-      <el-form :model="model" :rules="rules" ref="loginForm">
-      <el-form-item label="姓名" prop="username">
-        <el-input v-model="model.username" autocomplete="off" placeholder="請輸入帳號"></el-input>
-      </el-form-item>
-      <el-form-item label="確認密碼" prop="password">
-          <el-input type="password" v-model="model.password" autocomplete="off" placeholder="請輸入密碼"></el-input>
-          <!-- type="password" 字型是密碼的星星樣式-->
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary" @click="submitForm('loginForm')">Submit</el-button>
-        </el-form-item>
-    </el-form>
         <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -38,7 +25,7 @@ export default {
   //一次性的頁面資料初始化 constructor
   data() {
     return {
-      title: "請先登錄",
+      title: "登錄",
       value: "", //接收子Input事件onInput傳來的value
       model: { username: "", password: "" }, //說白了就是數據
       rules: {
@@ -54,6 +41,10 @@ export default {
 }
 </script>
 <style lang="scss">
+.logWrap{
+  width:100vm;
+
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
