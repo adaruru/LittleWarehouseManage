@@ -7,44 +7,24 @@
 
     </div>
     <router-view/>
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
+        <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+//import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    //HelloWorld
   },
     props:{
    // title:String
-  },
-  //一次性的頁面資料初始化 constructor
-  data() {
-    return {
-      title: "登錄",
-      value: "", //接收子Input事件onInput傳來的value
-      model: { username: "", password: "" }, //說白了就是數據
-      rules: {
-        username: [
-          { required: true, message: "請輸入姓名" },
-          { min: 6, max: 10, message: "請輸入6至10位姓名" }
-        ],
-        password: [{ required: true, message: "請輸入密碼" }]
-      }
-    }; //return要帶上;
   }
-
 }
 </script>
 <style lang="scss">
-.logWrap{
-  width:100vm;
-
-}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
