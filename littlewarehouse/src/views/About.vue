@@ -1,26 +1,19 @@
 <template>
   <div class="about">
     <h1>進入管理頁面</h1>
+
+    <router-link to="/about/出貨">出貨</router-link> |
+    <router-link to="/about/商品管理">商品管理</router-link> |
+    <router-link to="/about/帳號管理">帳號管理</router-link>
+    <!--顯示的內容包在nested裡面-->
     <router-view class="nested-routes"> </router-view>
-    <AccountManage msg="Welcome to Your Vue.js App"></AccountManage>
-    <ShipManage msg="Welcome to Your Vue.js App"></ShipManage>
-    <ProductManage msg="Welcome to Your Vue.js App"></ProductManage>
+   
   </div>
 </template>
 
 <script>
-// import AccountManage from '../components/AccountManage.vue'
-// import ShipManage from '../components/ShipManage.vue'
-// import ProductManage from '../components/ProductManage.vue'
-
-import { AccountManage, ShipManage, ProductManage } from "../components";
-
 export default {
-  components: {
-    AccountManage,
-    ShipManage,
-    ProductManage,
-  },
+ 
 };
 </script>
 
