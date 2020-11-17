@@ -25,17 +25,17 @@ const routes = [
     component: About,
     children: [ // 將會把對應到 path 的 component 放到 shop 的 <router-view />
       {
-        path: '出貨', // url= about/出貨
+        path: 'ShipManage', // url= about/出貨
         component: ShipManage,
         meta: { requiresAuth: false },
       },
       {
-        path: '帳號管理', // url= about/帳號管理
+        path: 'AccountManage', // url= about/帳號管理
         component: AccountManage,
         meta: { requiresAuth: false },
       },
       {
-        path: '商品管理', // url= about/商品管理
+        path: 'ProductManage', // url= about/商品管理
         component: ProductManage,
         meta: { requiresAuth: false },
       }

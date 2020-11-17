@@ -1,22 +1,25 @@
 <template>
   <div id="app">
     <div id="nav">
+      陽春版nav
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About </router-link>|
       <router-link to="/login">Login </router-link>|
     </div>
-    <router-view />
+    <navtab></navtab>
+    <!-- <router-view /> 這樣也可以代表插入區域 -->
+    <router-view></router-view>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 <script>
 // @ is an alias to /src
 //import HelloWorld from '@/components/HelloWorld.vue'
-
+import Navtab from "./components/navtab";
 export default {
   name: "Home",
   components: {
-    //HelloWorld
+    Navtab,
   },
   props: {
     // title:String
