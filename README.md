@@ -114,3 +114,18 @@ export default {
 
 
 
+### try follow github publish step
+
+![image-20201117104603973](.attachments/image-20201117104603973.png)
+
+```
+// Step 1: Use `publishConfig` option in your package.json
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+// Step 2: Authenticate
+// then input your github name and pw(generate via PAT)
+$ npm login --registry=https://npm.pkg.github.com/
+
+
+// Step 3: Publish
+$ npm publish
+```
