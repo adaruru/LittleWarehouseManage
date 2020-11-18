@@ -138,3 +138,11 @@ $ npm login --registry=https://npm.pkg.github.com/
 $ npm publish
 ```
 
+好像不給用 先拿掉
+
+```
+ "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+ }
+```
+
