@@ -125,7 +125,16 @@ export default {
 // then input your github name and pw(generate via PAT)
 $ npm login --registry=https://npm.pkg.github.com/
 
+```
+#### npm也要登陸
 
+![image-20201117115829545](.attachments/image-20201117115829545.png)
+
+
+
+
+```
 // Step 3: Publish
 $ npm publish
 ```
+
