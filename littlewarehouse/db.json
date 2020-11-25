@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Products": [{
+    "date": "iPhone 12 MAX",
+    "name": "台北",
+    "address": "21"
+  }, {
+    "date": "Google Pixel 4a",
+    "name": "高雄",
+    "address": "23"
+  }, {
+    "date": "iPhone 12 Pro",
+    "name": "台北",
+    "address": "11"
+  }, {
+    "date": "Google Pixel 5L",
+    "name": "台中",
+    "address": "16"
+  }],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
